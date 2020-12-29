@@ -12,6 +12,6 @@ server.get('*', (req, res) => {
 })
 
 server.listen(process.env.PORT, () => {
-  console.log(`server started at ${host}`)
+  console.log(`server started`)
   //opn(host)
 })
